@@ -1,6 +1,6 @@
-def dodawanie():
+def dodawanie(x):
 
-    a = 2
+    a = x
 
     for i in range(5):
 
@@ -8,5 +8,5 @@ def dodawanie():
 
     return a
 
-print(dodawanie())
-print(dodawanie()+4*dodawanie())
+print(dodawanie(2))
+print(dodawanie(3)+4*dodawanie(5))
