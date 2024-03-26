@@ -4,7 +4,7 @@ def dodawanie():
 
     for i in range(5):
 
-        a *= 1
+        a *= i
 
     return a
 
