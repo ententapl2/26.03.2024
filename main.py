@@ -1,7 +1,11 @@
 def dodawanie():
 
+    a = 1
+
     for i in range(5):
 
-        print(i)
+        a *= 1
 
-    return 0
+    return a
+
+print(dodawanie())
