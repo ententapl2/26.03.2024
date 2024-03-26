@@ -1,6 +1,6 @@
 def dodawanie():
 
-    a = 1
+    a = 2
 
     for i in range(5):
 
@@ -9,3 +9,4 @@ def dodawanie():
     return a
 
 print(dodawanie())
+print(dodawanie()+4*dodawanie())
